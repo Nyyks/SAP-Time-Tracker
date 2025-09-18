@@ -6,3 +6,4 @@ Per default all S/4HANA in the public Cloud should work
 
 https://addons.mozilla.org/de/firefox/addon/sap-time-tracker/
 
+https://chromewebstore.google.com/detail/sap-time-tracker/mojlhimcfdjepgcfablifakkdemanbik?
