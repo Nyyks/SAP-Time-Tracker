@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Addon Settings</title>
+  <style>
+    body { font-family: Arial, sans-serif; min-width: 250px; padding: 10px; }
+    label { display: block; margin-top: 10px; }
+    input, textarea { width: 100%; margin-top: 5px; }
+    #musicToggle { width: auto; }
+    button { margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <h3>Settings</h3>
+  <form id="settingsForm">
+    <!-- Removed custom URLs and selectors settings -->
+    <label>Play music while loading
+      <input type="checkbox" id="musicToggle">
+    </label>
+    <label>Upload your own music:
+      <input type="file" id="musicFile" accept="audio/*">
+    </label>
+
+    <div style="margin-top:15px;">
+      <button type="button" id="exportBtn">Export Time Data</button>
+      <input type="file" id="importFile" accept="application/json" style="display:none;">
+      <button type="button" id="importBtn">Import Time Data</button>
+    </div>
+    <button type="submit">Save</button>
+  </form>
+  <div id="status"></div>
+  <script src="settings.js"></script>
+</body>
+</html>
